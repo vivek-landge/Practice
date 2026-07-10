@@ -1,10 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 35vb;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 10px 30px 10px;
+
+}
+img{
+    height: 300px;
+    border-radius: 10px;
+}
+div{
+    text-align: center;
+    border-radius: 10px;
+
+}
+#box{
+    border-radius: 10px;
+}
+ 
 body {
   margin: 0;
   height: 100vh;
   display: flex;
   justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+  background-color : #bdd5d7;
 }
-button{
-    width: 90vh;
-    border-radius: 5px;
-}
+
